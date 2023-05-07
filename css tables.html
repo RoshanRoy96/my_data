@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Tables</title>
+        <style>
+           #container, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            }
+           #container{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 30%;
+            height: 250px;
+            display:block;
+            overflow:auto;
+           }
+           th{
+            vertical-align: middle;
+            padding: 20px;
+            font-size: large;
+            background-color: darkcyan;
+            color:white;
+           }
+           td{
+            vertical-align: bottom;
+            padding-top:15px;
+            text-align: center;
+           }
+           tr:nth-child(odd){
+            background-color: aqua;
+           }
+           tr:hover{
+            background-color: blue;
+            color:white;
+           }
+           
+        </style>
+    </head>
+    <body>
+        <h1>Employee Details</h1>
+        <table id="container">
+            <tr>
+                <th>Emp Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Department</th>
+                <th>Location</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Roshan</td>
+                <td>Roy</td>
+                <td>IT</td>
+                <td>Bangalore</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Adithya</td>
+                <td>Mathew</td>
+                <td>Data Analyst</td>
+                <td>Bangalore</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Vaishak</td>
+                <td>R</td>
+                <td>Finance</td>
+                <td>Kochin</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Jack</td>
+                <td>Antony</td>
+                <td>Marketing</td>
+                <td>Trivandrum</td>
+            </tr>
+            <tr>
+                <td>105</td>
+                <td>Sanjeev</td>
+                <td>S</td>
+                <td>Finance</td>
+                <td>Pune</td>
+            </tr>
+            <tr>
+                <td>106</td>
+                <td>Hari</td>
+                <td>Prasad</td>
+                <td>Designing</td>
+                <td>Kochin</td>
+            </tr>
+            <tr>
+                <td>107</td>
+                <td>Manu</td>
+                <td>Varghese</td>
+                <td>Marketing</td>
+                <td>Trivandrum</td>
+            </tr>
+            <tr>
+                <td>108</td>
+                <td>Roshin</td>
+                <td>Antony</td>
+                <td>Finance</td>
+                <td>Bangalore</td>
+            </tr>
+            <tr>
+                <td>109</td>
+                <td>Jain</td>
+                <td>John</td>
+                <td>IT</td>
+                <td>Kochin</td>
+            </tr>
+            <tr>
+                <td>110</td>
+                <td>Anand</td>
+                <td>Antony</td>
+                <td>Designing</td>
+                <td>Trivandrum</td>
+            </tr>
+        </table>
+    </body>
+</html>

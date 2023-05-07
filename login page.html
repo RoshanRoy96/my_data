@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <style>
+             h1{
+                font-weight: bold;
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                color: white;
+             }
+            .container{
+                width: 250px;
+                height: 300px;
+                margin: auto;
+                background-image: linear-gradient(black,skyblue);
+                border: 5px solid black;
+                outline: 5px solid mediumaquamarine;  
+              }
+             .mail,.pass{
+                height: 24px;
+                width: 180px;
+                border-radius: 5px;
+                border: 2px solid black;
+                outline:skyblue solid 5px;
+                margin-left: 25px;
+             }
+             .forgot{
+               font-size: small;
+               text-decoration: none;
+               color: white;
+               display: block;
+               margin-left: 25px;
+               margin-top: 10px;
+             }
+             
+             .button{
+                width: 100px;
+                height: 30px; 
+                border-radius: 10px;
+                border: 1px solid black;
+                color: white;
+                background: cadetblue;
+                cursor: pointer;
+                margin-left: 25px;
+                margin-top: 10px;
+                outline: 5px solid darkcyan;
+                font-size:18px;
+                }
+                p{
+                  font-size:small;
+                  margin-left:35px;
+                }
+                .register{
+                  text-decoration: none;
+                  font-weight: bold;
+                  color: white;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="form"></div>
+                <h1>Login</h1>
+                <br>
+                <input class="mail" type="email" placeholder="Email"><br><br>
+                <input class="pass" type="password" placeholder="Password"><br>
+                <a class="forgot" href="#">Forgot Password?</a>
+                <input class="button" type="submit" value="Login">
+                <p class="para">Don't have an account? <a class="register" href="#">Register</a></p>
+        </div>
+        </div>
+    </body>
+</html>
